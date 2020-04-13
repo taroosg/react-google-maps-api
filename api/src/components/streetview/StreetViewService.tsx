@@ -16,7 +16,7 @@ interface StreetViewServiceState {
 export class StreetViewService extends React.PureComponent<
   StreetViewServiceProps,
   StreetViewServiceState
-  > {
+> {
   static contextType = MapContext
 
   state = {
